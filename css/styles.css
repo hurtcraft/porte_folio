@@ -25,7 +25,7 @@ div#projet_content div{
     margin-left: 7%;
     margin-top: 7%;
     width: 90%;
-    
+    vertical-align: top;
     padding-bottom: 50%;
     border-radius: 15%;
     transition: 1s;
@@ -37,7 +37,7 @@ div#projet_content div:hover{
     margin-left: 4%;
     margin-top: 7%;
     width: 100%;
-    
+    vertical-align: top;
     padding-bottom: 55%;
     border-radius: 15%;
     transition: 1s;
@@ -46,9 +46,9 @@ div#projet_content div:hover{
 
 
 div#cv_content{
-    vertical-align: top;
+    
     background-color: #adadad;
-    margin-left: 5%;
+    margin-left: 50%;
     margin-top: 3%;
     border-radius: 10%;
     
@@ -60,7 +60,7 @@ div#cv_content{
 }
 div#cv_content:hover{
     background-color:#9b9b9b ;
-    margin-left: 4%;
+    margin-left: 47%;
     margin-top: 3%;
     border-radius: 10%;
     width: 50%;
@@ -75,3 +75,26 @@ div#all h1.titre_cv{
     margin-left: 10%;
 }
 
+@media screen and (max-width : 1000px){
+    div#all div{
+        width: 90%;
+    }
+    div#cv_content{
+        margin-left: 10%;
+        width: 1%;
+        position: relative;
+    }
+    div#cv_content:hover{
+        margin-left: 10%;
+        width: 1%;
+        position: relative;
+    }
+    div#projet_content{
+        
+        margin-left: 3%;
+    }
+
+    
+   
+    
+}
