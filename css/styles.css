@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "TANGOSANS";
+    src: url("font/TangoSans.ttf");
+}
+body{
+    font-family: "TANGOSANS",sans-serif;
+    background-color:#d4d4d4  ;
+}
+div#all div{
+    filter: drop-shadow(5px 5px 5px #cacaca);
+    display: inline-block;
+    width: 45%;
+}
+
+div#all h1.titre_projet{
+    color: aqua;
+    position: relative;
+    font-size: 300%;
+    left: 10%;
+}
+
+div#projet_content div{
+
+    background-color: #adadad;
+    margin-left: 7%;
+    margin-top: 7%;
+    width: 90%;
+    
+    padding-bottom: 50%;
+    border-radius: 15%;
+    transition: 1s;
+}
+
+div#projet_content div:hover{
+    
+    background-color:#9b9b9b ;
+    margin-left: 4%;
+    margin-top: 7%;
+    width: 100%;
+    
+    padding-bottom: 55%;
+    border-radius: 15%;
+    transition: 1s;
+
+}
+
+
+div#cv_content{
+    vertical-align: top;
+    background-color: #adadad;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 10%;
+    
+    padding-bottom: 40%;
+    
+    
+    position:fixed;
+    transition: 1s;
+}
+div#cv_content:hover{
+    background-color:#9b9b9b ;
+    margin-left: 4%;
+    margin-top: 3%;
+    border-radius: 10%;
+    width: 50%;
+    height: auto;
+    position:fixed;
+    transition: 1s;
+    
+
+}
+div#all h1.titre_cv{
+    color: aqua;
+    margin-left: 10%;
+}
+
