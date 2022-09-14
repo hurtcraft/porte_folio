@@ -4,12 +4,14 @@
 }
 body{
     font-family: "TANGOSANS",sans-serif;
-    background-color:#d4d4d4  ;
+    background-color:#ffffff ;
 }
 div#all div{
-    filter: drop-shadow(5px 5px 5px #cacaca);
+    filter: drop-shadow(2px 2px 3px #838383);
     display: inline-block;
     width: 45%;
+    
+    
 }
 
 div#all h1.titre_projet{
@@ -21,33 +23,33 @@ div#all h1.titre_projet{
 
 div#projet_content div{
 
-    background-color: #adadad;
+    background-color: #f0f0f0;
     margin-left: 7%;
     margin-top: 7%;
     width: 90%;
     vertical-align: top;
     padding-bottom: 50%;
     border-radius: 15%;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 div#projet_content div:hover{
     
-    background-color:#9b9b9b ;
+    background-color:#e4e4e4 ;
     margin-left: 4%;
     margin-top: 7%;
     width: 100%;
     vertical-align: top;
     padding-bottom: 55%;
     border-radius: 15%;
-    transition: 1s;
+    transition: 0.7s;
 
 }
 
 
 div#cv_content{
     
-    background-color: #adadad;
+    background-color: #f0f0f0;
     margin-left: 50%;
     margin-top: 3%;
     border-radius: 10%;
@@ -56,17 +58,17 @@ div#cv_content{
     
     
     position:fixed;
-    transition: 1s;
+    transition: 0.7s;
 }
 div#cv_content:hover{
-    background-color:#9b9b9b ;
+    background-color:#e4e4e4 ;
     margin-left: 47%;
     margin-top: 3%;
     border-radius: 10%;
     width: 50%;
     height: auto;
     position:fixed;
-    transition: 1s;
+    transition: 0.7s;
     
 
 }
@@ -77,24 +79,28 @@ div#all h1.titre_cv{
 
 @media screen and (max-width : 1000px){
     div#all div{
-        width: 90%;
+        width: 80%;
     }
     div#cv_content{
         margin-left: 10%;
-        width: 1%;
+        
+
         position: relative;
     }
     div#cv_content:hover{
-        margin-left: 10%;
-        width: 1%;
+        margin-left: 6%;
+        width: 88%;
         position: relative;
     }
     div#projet_content{
-        
-        margin-left: 3%;
+       
+        margin-left: 5%;
     }
 
-    
+    div#projet_content:hover{
+       
+        margin-left: 5%;
+    }
    
     
 }
