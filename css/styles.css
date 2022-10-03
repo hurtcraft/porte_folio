@@ -13,6 +13,13 @@ div#all div{
     
     
 }
+div#all nav#menu{
+    filter: drop-shadow(2px 2px 3px #838383);
+    display: inline-block;
+    width: 45%;
+    
+    
+}
 
 div#all h1.titre_projet{
     color: aqua;
@@ -21,7 +28,7 @@ div#all h1.titre_projet{
     left: 10%;
 }
 
-div#projet_content div{
+nav#menu div{
 
     background-color: #f0f0f0;
     margin-left: 7%;
@@ -33,7 +40,7 @@ div#projet_content div{
     transition: 0.7s;
 }
 
-div#projet_content div:hover{
+nav#menu div:hover{
     
     background-color:#e4e4e4 ;
     margin-left: 4%;
@@ -92,14 +99,17 @@ div#all h1.titre_cv{
         width: 88%;
         position: relative;
     }
-    div#projet_content{
+    nav#menu{
        
         margin-left: 5%;
     }
 
-    div#projet_content:hover{
+    nav#menu:hover{
        
         margin-left: 5%;
+    }
+    nav#menu div{
+        width: 80%;
     }
    
     
